@@ -1,5 +1,5 @@
 
-menu = ["Kem", "xoi", "Pho", "thit", "tao pho"]
+menu = ["Kem", "Xoi", "Pho", "Thit", "Tao pho"]
 
 # print(*menu, sep=",")
 # print(len(menu))
@@ -26,8 +26,8 @@ menu = ["Kem", "xoi", "Pho", "thit", "tao pho"]
 # for index, item in enumerate(menu):
 #     print(index, item)
 
-# for item in menu:
-#     print(item)
+for item in menu:
+    print(item)
 
 
 # menu[1] = "Che"
@@ -55,6 +55,6 @@ menu = ["Kem", "xoi", "Pho", "thit", "tao pho"]
 # del menu[2]
 # print(menu)
 
-menu.pop(1)
-print(*menu, sep=", ")
+# menu.pop(1)
+# print(*menu, sep=", ")
     
