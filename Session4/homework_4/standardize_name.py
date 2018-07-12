@@ -1,2 +1,6 @@
 name = str(input("Your full name: "))
-print("Updated: {0}".format(name).title())
+
+c = name.title().split()
+
+print ("Updated:", *c)
+

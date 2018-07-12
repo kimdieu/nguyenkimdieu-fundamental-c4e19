@@ -3,8 +3,7 @@ clothes = ["T-Shirt", "Sweater"]
 loop = True
 
 while loop:
-    item = input("Welcome to our shop, what do you want (C, R, U, D)? Press X to Exit ")
-    # print("Press X to exit")
+    item = input(" Welcome to our shop, what do you want (C, R, U, D)? Press X to Exit ")
 
     if item == "R" or item == "r":
         print ("Our item:", end = " ")
