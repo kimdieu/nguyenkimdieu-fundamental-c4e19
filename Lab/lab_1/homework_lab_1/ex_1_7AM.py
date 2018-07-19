@@ -8,7 +8,7 @@ html_content = """
 <p style="text-align: center;">Độc lập - Tự do - Hạnh ph&uacute;c</p>
 <p style="text-align: center;"><strong>ĐƠN XIN NGHỈ HỌC</strong></p>
 <p style="text-align: left;">K&iacute;nh gửi trung t&acirc;m Techkids,</p>
-<p style="text-align: left;">En t&ecirc;n Nguyễn Kim Diệu. H&ocirc;m nay, thứ S&aacute;u ng&agrave;y 13, năm 2018, em xin nghỉ do {{sickness}}.</p>
+<p style="text-align: left;">En t&ecirc;n Nguyễn Kim Diệu. H&ocirc;m nay, em xin nghỉ do {{sickness}}.</p>
 <p style="text-align: left;">Em xin ch&acirc;n th&agrave;nh cảm ơn sự th&ocirc;ng cảm của thầy Huỳnh Tuấn Anh.</p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">Tr&acirc;n trọng,</p>
@@ -26,6 +26,6 @@ import datetime
 now = datetime.datetime.now()
 loop = True
 while loop:
-    if now.hour == 7:
+    if now.hour == 9:
         gmail.send(msg)
         loop = False
