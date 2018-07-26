@@ -40,5 +40,10 @@ def generate_quiz():
             ]
 
 def mouse_press(x, y, text, color, quiz_type):
-
+    import pymouse
+    coord = [x,y]
+    coord = pymouse.PyMouse()
+    coord.position()
+    text = text
+    color = color
     return True
