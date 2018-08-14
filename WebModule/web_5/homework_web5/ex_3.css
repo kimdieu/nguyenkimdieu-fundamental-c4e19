@@ -1,0 +1,278 @@
+.w-80px {
+    width: 75%;
+}
+
+.h-300px {
+    height: 380px;
+}
+
+.h-500px {
+    height: 65px;
+}
+
+.h-150px {
+    height: 200px;
+}
+
+.h-250px {
+    height: 390px;
+}
+
+.w-spx {
+    width: 20%;
+}
+
+.h-spx {
+    height: 1100px;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: whitesmoke;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#box-model-head {
+    background-image: url("image/header.jpg");
+    background-size: 100% 100%;
+    border: 10px solid white;
+    float: right;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+}
+
+#read-learn-share {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.font-slabo {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: lightseagreen;
+}
+
+.w-20px {
+    width: 20%;
+}
+
+.h-30px {
+    height: 38px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.w-40px {
+    width: 40%;
+}
+
+.h-25px {
+    height: 33px;
+}
+
+#inner-head {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.bg-green {
+    background-color: lightblue;
+}
+
+.w-25px {
+    width: 25%;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.m-10px {
+    margin: 1px;
+}
+
+#box-model-body1 {
+    border: 10px solid white;
+    margin: 1px;
+    padding: 1px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    background-color: whitesmoke;
+    width: 34.5%;
+    height: 65px;
+}
+
+.bg-lightblue {
+    background-color: whitesmoke;
+}
+
+.w-48px {
+    width: 65%;
+}
+
+.bg-lightpink {
+    background-color: lightcoral;
+}
+
+.w-32px {
+    width: 34.5%;
+}
+
+.h-h {
+    height: 15px;
+}
+
+.w-w {
+    width: 250px;
+}
+
+.w-w1 {
+    width: 100px;
+}
+#box-model-body2 {
+    border: 6px solid white;
+    margin: 1px;
+    padding: 10px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-brown1 {
+    background-image: url("image/cookbooks-blog.jpg");
+    background-size: 100% 100%;
+}
+
+.bg-brown2 {
+    background-image: url("image/potato.jpg");
+    background-size: 100% 100%;
+}
+
+.bg-brown3 {
+    background-image: url("image/pinterest.jpg");
+    background-size: 100% 100%;
+}
+
+.bg-brown4 {
+    background-image: url("image/dinner-blog.jpg");
+    background-size: 100% 100%;
+}
+
+.w-250px {
+    width: 250px;
+}
+
+#box-model-body3 {
+    border: 6px solid white;
+    margin: 1px;
+    padding: 1px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-orange {
+    background-color: whitesmoke;
+}
+
+#box-model-side {
+    border: 10px solid white;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.bg-pink {
+    background-image: url("image/page-logo.png");
+    background-size: 100% 100%;
+}
+
+.w-100px {
+    width: 100%;
+}
+
+.h-130px {
+    height: 130px;
+}
+
+#flex-side {
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+#side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-darkblue {
+    background-color: whitesmoke;
+}
+
+.h-200px {
+    height: 250px;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+#box-model {
+    border: 1px solid white;
+    margin: 1px;
+    padding: 1px;
+}
+
+#dash-line {
+    width: 100%;
+    border: 1px dashed rgba(0, 0, 0, 0.336);
+}

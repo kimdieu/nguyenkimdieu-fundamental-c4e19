@@ -1,0 +1,72 @@
+#head {
+    background-image: url("https://www.citihome.vn/pictures/anh9--copy-.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-upper-case {
+    text-transform: uppercase;
+}
+
+#flex-box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+.bg-yellow1 {
+    background-image: url("https://techkids.vn/photos/doanhtu_1485066501589.jpg");
+    background-size: cover;
+}
+
+.bg-yellow2 {
+    background-image: url("https://techkids.vn/photos/12295455_505369616307097_1044571515723092257_n_1485066524353.jpg");
+    background-size: cover;
+}
+
+.bg-yellow3 {
+    background-image: url("https://techkids.vn/photos/MinhTaHoang_1485066540993.jpg");
+    background-size: cover;
+}
+
+.bg-yellow4 {
+    background-image: url("https://techkids.vn/photos/quanghuy_1485066555926.jpg");
+    background-size: cover;
+}
+
+.w-50px {
+    width: 150px;
+}
+
+.h-50px {
+    height: 150px;
+}
+
+.border-radius {
+    border-radius: 80px;
+}
+
+#name {
+    width: 20%;
+    height: 280px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+#aline {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}

@@ -1,0 +1,44 @@
+.text-success{
+    color: green;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-green{
+    background-color: lightgreen;
+}
+
+.bg-blue{
+    background-color: dodgerblue;
+}
+.w-200px{
+    width: 200px;
+}
+
+.w-50px{
+    width: 50%;
+}
+
+.h-100px{
+    height: 100px;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+#box-model {
+    /* width - style - color */
+    border: 1px dashed orangered;
+    margin: 40px;
+    padding: 10px 20px;
+}
+
+#inner-div {
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+}
+

@@ -1,0 +1,199 @@
+.w-80px {
+    width: 75%;
+}
+
+.h-300px {
+    height: 380px;
+}
+
+.h-500px {
+    height: 65px;
+}
+
+.h-150px {
+    height: 200px;
+}
+
+.h-250px {
+    height: 390px;
+}
+
+.w-spx {
+    width: 20%;
+}
+
+.h-spx {
+    height: 1100px;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: grey;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#box-model-head {
+    border: 10px solid white;
+    margin: 1px;
+    padding: 1px;
+    float: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+}
+
+.w-20px {
+    width: 20%;
+}
+
+.h-30px {
+    height: 38px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.w-40px {
+    width: 40%;
+}
+
+.h-25px {
+    height: 33px;
+}
+
+#inner-head {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.w-25px {
+    width: 25%;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.m-10px {
+    margin: 1px;
+}
+
+#box-model-body1 {
+    border: 10px solid white;
+    margin: 1px;
+    padding: 1px;
+    float: right;
+}
+
+.bg-lightblue {
+    background-color: lightskyblue;
+}
+
+.w-48px {
+    width: 65%;
+}
+
+.bg-lightpink {
+    background-color: lightcoral;
+}
+
+.w-32px {
+    width: 34.5%;
+}
+
+#box-model-body2 {
+    border: 6px solid white;
+    margin: 1px;
+    padding: 1px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-brown {
+    background-color: burlywood;
+}
+
+.w-250px {
+    width: 250px;
+}
+
+#box-model-body3 {
+    border: 6px solid white;
+    margin: 1px;
+    padding: 1px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-orange {
+    background-color: lightsalmon;
+}
+
+#box-model-side {
+    border: 10px solid white;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.bg-pink {
+    background-color: palevioletred;
+}
+
+.w-100px {
+    width: 100%;
+}
+
+.h-130px {
+    height: 130px;
+}
+
+#flex-side {
+    background-color: lightblue;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.bg-darkblue {
+    background-color: darkcyan;
+}
+
+.h-200px {
+    height: 250px;
+}
+
+#box-model {
+    border: 1px solid white;
+    margin: 1px;
+    padding: 1px;
+}
