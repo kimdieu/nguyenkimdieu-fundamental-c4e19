@@ -4,20 +4,22 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><Page Title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    {% include 'meta-data.html' %}
 </head>
 <body>
-    <h4>Thông tin khách hàng</h4>
+    <br>
+    <h2 class="font-great text-center">Thông tin khách hàng</h2>
     {% for service in all_service %}
-    <div>
-        <img src="http://via.placeholder.com/300x200">
-        <br>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <img class="shadow p-1 mb-5 bg-white rounded" src="http://via.placeholder.com/300x200" width="300px" height="200px">
         <b>Tên: {{service.name}}</b>
+        <br>
         <p>Năm sinh: {{service.yob}}</p>
         <p>Chiều cao: {{service.height}}</p>
-        <a href='{{ url_for('detail', customer_id=service.id) }}'>Tìm hiểu thêm</a>
+        <a class="btn btn-outline-dark btn-sm" href="{{ url_for('detail', customer_id=service.id) }}" role="button">
+            Tìm hiểu thêm
+            <i class="far fa-smile-wink"></i>
+        </a>
         <hr>
     </div>
     {% endfor %}

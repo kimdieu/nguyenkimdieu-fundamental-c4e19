@@ -4,18 +4,20 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    {% include 'meta-data.html' %}
 </head>
 <body>
-    <h4>Thông tin chi tiết</h4>
-    <a href="{{ url_for('order', customerid=customer_id.id) }}">Yêu cầu dịch vụ</a>
-    <div>
+    <br>
+    <h4 class="font-jua text-center">Thông tin chi tiết</h4>
+    <a href="{{ url_for('order', customerid=customer_id.id) }}" class="d-flex justify-content-center">
+        Yêu cầu dịch vụ
+        <i class="far fa-thumbs-up m-1"></i>
+    </a>
+    <div class="d-flex flex-column justify-content-center align-items-center">
         <br>
-        <img src="{{ customer_id.image }}" width="300" height="200">
-        <br>
+        <img class="shadow p-1 mb-5 bg-white rounded" src="{{ customer_id.image }}" width="500" height="400">
         <b>Tên: {{customer_id.name}}</b>
+        <br>
         <p>Năm sinh: {{customer_id.yob}}</p>
         <p>Chiều cao: {{customer_id.height}}</p>
         <p>Địa chỉ: {{customer_id.address}}</p>
@@ -24,6 +26,6 @@
         <p>Số đo 3 vòng: {{ customer_id.measurements }}</p>
         <hr>
     </div>
-    <a href="{{ url_for('logout') }}">đăng xuất</a>
+    <a href="{{ url_for('logout') }}" class="btn btn-light btn-sm" role="button" disabled>Đăng Xuất</a>
 </body>
 </html>

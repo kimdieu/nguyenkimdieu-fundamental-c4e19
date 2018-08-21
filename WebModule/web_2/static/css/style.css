@@ -1,0 +1,98 @@
+.font-lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.font-great {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.font-jua {
+    font-family: 'Jua', sans-serif;
+}
+
+.mx-10 {
+    margin-left: 73px;
+    margin-right: 70px;
+}
+
+.my-300 {
+    margin-top: 350px;
+    margin-bottom: 350px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.w-80 {
+    width: 90%;
+}
+
+.w-200 {
+    width: 350px;
+}
+
+.h-200 {
+    height: 450px;
+}
+
+.h-400 {
+    height: 500px;
+}
+
+.h-500 {
+    height: 550px;
+}
+
+.h-600 {
+    height: 650px;
+}
+
+.h-50px {
+    height: 55px;
+}
+
+.h-30px {
+    height: 50px;
+}
+
+.h-20px {
+    height: 40px;
+}
+
+#female {
+    background-image: url("../image/female.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 250px;
+    margin: 1px;
+    padding: 85px;
+}
+
+#male {
+    background-image: url("../image/male.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 250px;
+    margin: 1px;
+    padding: 85px;
+}
+
+.bg-background {
+    background-image: url("../image/background.jpg");
+    background-size: contain;
+}
+
+.addition {
+    margin: 30px;
+    border: 3px solid white;
+}
+
+.bg-s-light {
+    background-color: gainsboro;
+}
+
+.brd {
+    border: 1px solid whitesmoke;
+}
+
